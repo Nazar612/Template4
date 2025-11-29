@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.site-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 0.1px solid #A1A1A1;
+}
+
+.header-nav__list {
+  display: flex;
+  transform: translate(50%);
+}
+
+.header-nav__item {
+  margin-right: 39px;
+}
+.header-nav__item:nth-last-child {
+  margin-right: 0;
+}
