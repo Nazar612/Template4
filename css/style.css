@@ -31,10 +31,12 @@ a {
 
 .header-nav__list {
   display: flex;
-  transform: translate(50%);
+  justify-content: right;
 }
 
 .header-nav__item {
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 39px;
 }
 .header-nav__item:nth-last-child {
@@ -65,5 +67,22 @@ a {
   transition: color 250ms linear;
 }
 .header-nav__link:hover {
-  color: rgb(60, 123, 185);
+  color: rgb(132, 194, 255);
+}
+
+.hero {
+  padding-top: 319px;
+  padding-bottom: 350px;
+}
+
+.hero__background {
+  background-image: url(/assets/img/DeskTop/x1/herox1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 99vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
 }

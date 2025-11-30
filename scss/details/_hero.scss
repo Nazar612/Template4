@@ -1,0 +1,18 @@
+.hero {
+    padding-top:319px;
+    padding-bottom:350px;
+}
+
+.hero__background {
+    background-image:url(/assets/img/DeskTop/x1/herox1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width:99vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+
