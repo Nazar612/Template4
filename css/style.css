@@ -534,3 +534,42 @@ a {
 .services__item-link:hover {
   color: #a05815;
 }
+
+.projects {
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background-color: #F6F6F8;
+}
+
+.projects__title {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  margin-bottom: 56px;
+}
+
+.projects__subtitle {
+  color: var(--grey, rgb(153, 153, 153));
+  font-family: Montserrat2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.projects__list {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.projects__item {
+  margin-right: 30px;
+}
+.projects__item:nth-child(n+4) {
+  margin-right: 0;
+}
