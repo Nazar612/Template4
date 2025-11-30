@@ -1,0 +1,97 @@
+.videoimg {
+    padding-top: 70px;
+    padding-bottom: 84.5px;
+    border-bottom:1px solid lightgray;
+    position:relative;
+}
+
+.videoimg__background {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 99vw;
+    height:570px;
+    background-image: url(/assets/img/DeskTop/x1/hero2x1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videoimg__title {
+    color: white;
+
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom:30px;
+}
+
+.videoimg__subtitle {
+    color: rgba(255, 255, 255, 1);
+
+font-family: Montserrat2;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 70px;
+}
+
+.videoimg__img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.videoimg__position {
+    position:relative;
+}
+
+.videoimg__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videoimg__button {
+    border:1px solid white;
+    background-color: transparent;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    transition: background-color 250ms linear;
+
+     &:hover {
+       background: #080808;
+background: linear-gradient(168deg,rgba(8, 8, 8, 0.56) 15%, rgba(255, 255, 255, 0.08) 100%);
+        box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+
+    }
+}
+
+.videoimg__span {
+    color:  white;
+font-family: Montserrat2;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.videoimg__svg {
+    height: 60px;
+    width: 60px;
+    margin-right: 21px;
+    border-radius: 50%;
+}

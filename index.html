@@ -218,15 +218,19 @@ Lorem Ipsum - це текст-"риба", що часто використову
 </div>
         </section>
 
-        <section class="video">
+        <section class="videoimg">
             <div class="container">
-            <h2 class="video__title">Відео про нашу роботу</h2>
-            <p class="video__subtitle">Просто подивіться, як ми працюємо</p>
+                <div class="videoimg__background"></div>
+            <h2 class="videoimg__title">Відео про нашу роботу</h2>
+            <p class="videoimg__subtitle">Просто подивіться, як ми працюємо</p>
 
-            <video src="" class="video__player"
-            controls width="970" height="430">
-            <source src="" type="" >
-            </video>
+            <div class="videoimg__position">
+            <picture class="videoimg__picture"><img src="./assets/img/DeskTop/x1/videox1.webp" alt="" class="videoimg__img">
+            <source srcset="./assets/img/DeskTop/x1/videox1.webp x1, ./assets/img/DeskTop/x2/videox2.webp x2, ./assets/img/DeskTop/x3/videox3.webp x3"></picture>
+
+            
+            <button class="videoimg__button"><img src="./assets/img/DeskTop/x1/playbuttonx1.webp" alt="" class="videoimg__svg"><span class="videoimg__span">Дивитись відео</span></button>
+            </div>
             </div>
         </section>
 
