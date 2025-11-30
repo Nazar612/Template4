@@ -306,3 +306,231 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
+
+.services {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+.services__gradient {
+  height: 490px;
+  width: 99vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #504DC2;
+  background: linear-gradient(90deg, rgb(80, 77, 194) 0%, rgb(95, 18, 208) 100%);
+  color: white;
+  z-index: -2;
+}
+
+.services__header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.services__title {
+  color: white;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.services__button {
+  width: 200px;
+  height: 45px;
+  background-color: #4985FF;
+  color: white;
+  border-radius: 30px;
+  border-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Montserrat2;
+  text-align: center;
+  transition: background-color 750ms linear;
+  transition: box-shadow 250ms linear;
+}
+.services__button:hover {
+  background-color: #759ef0;
+  box-shadow: 0px 1px 9px 4px rgba(73, 133, 255, 0.75);
+  -webkit-box-shadow: 0px 1px 9px 4px rgba(73, 133, 255, 0.75);
+  -moz-box-shadow: 0px 1px 9px 4px rgba(73, 133, 255, 0.75);
+}
+
+.services__list {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 85px;
+}
+
+.services__item {
+  margin-right: 30px;
+}
+.services__item:nth-child(n+3) {
+  margin-right: 0;
+}
+
+.services__image {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.services__item-title {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.services__item-number {
+  color: #4985FF;
+}
+
+.services__item-text {
+  color: var(--grey, rgb(153, 153, 153));
+  font-family: Montserrat2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 47px;
+}
+
+.services__item-link {
+  color: #4985FF;
+  font-family: Montserrat2;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: underline;
+  transition: color 250ms linear;
+}
+.services__item-link:hover {
+  color: #a05815;
+}
+
+.services {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+.services__gradient {
+  height: 490px;
+  width: 99vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #504DC2;
+  background: linear-gradient(90deg, rgb(80, 77, 194) 0%, rgb(95, 18, 208) 100%);
+  color: white;
+  z-index: -2;
+}
+
+.services__header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.services__title {
+  color: white;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.services__button {
+  width: 200px;
+  height: 45px;
+  background-color: #4985FF;
+  color: white;
+  border-radius: 30px;
+  border-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Montserrat2;
+  text-align: center;
+  transition: background-color 750ms linear;
+  transition: box-shadow 250ms linear;
+}
+.services__button:hover {
+  background-color: #759ef0;
+  box-shadow: 0px 1px 9px 4px rgba(73, 133, 255, 0.75);
+  -webkit-box-shadow: 0px 1px 9px 4px rgba(73, 133, 255, 0.75);
+  -moz-box-shadow: 0px 1px 9px 4px rgba(73, 133, 255, 0.75);
+}
+
+.services__list {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 85px;
+}
+
+.services__item {
+  margin-right: 30px;
+}
+.services__item:nth-child(n+3) {
+  margin-right: 0;
+}
+
+.services__image {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.services__item-title {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.services__item-number {
+  color: #4985FF;
+}
+
+.services__item-text {
+  color: var(--grey, rgb(153, 153, 153));
+  font-family: Montserrat2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 47px;
+}
+
+.services__item-link {
+  color: #4985FF;
+  font-family: Montserrat2;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: underline;
+  transition: color 250ms linear;
+}
+.services__item-link:hover {
+  color: #a05815;
+}
