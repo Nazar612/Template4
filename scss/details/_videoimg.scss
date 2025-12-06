@@ -67,7 +67,7 @@ margin-bottom: 70px;
     align-items: center;
     width: 300px;
     height: 100px;
-    transition: box-shadow 250ms linear, border-color 250ms linear;
+    transition: box-shadow 250ms linear, border-color 250ms linear, background 250ms linear;
 
      &:hover {
        background: #080808;
