@@ -30,6 +30,8 @@ text-align: center;
 .newsletter__form {
     text-align: center;
     margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
 }
 
 .newsletter__input {
@@ -41,9 +43,11 @@ text-align: center;
     border-bottom-left-radius:30px;
     border-color: transparent;
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    display: block;
 }
 
 .newsletter__button {
+    display: block;
     border-color: transparent;
     padding-top:15px ;
     padding-bottom: 15px;
@@ -56,9 +60,7 @@ text-align: center;
     font-weight: 500;
     font-size: 16px;
     font-family: Montserrat2;
-    transition: background-color 750ms linear;
-    transition: box-shadow 250ms linear;
-    transition: color 250ms linear;
+    transition: background-color 250ms linear, box-shadow 250ms linear, color 250ms linear;
     &:hover {
         background-color: #6c9dff;
 box-shadow: 0px 1px 9px 4px rgba(73,133,255,0.75);

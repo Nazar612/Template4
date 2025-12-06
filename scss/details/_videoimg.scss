@@ -67,7 +67,7 @@ margin-bottom: 70px;
     align-items: center;
     width: 300px;
     height: 100px;
-    transition: background-color 250ms linear;
+    transition: box-shadow 250ms linear, border-color 250ms linear;
 
      &:hover {
        background: #080808;
@@ -75,7 +75,7 @@ background: linear-gradient(168deg,rgba(8, 8, 8, 0.56) 15%, rgba(255, 255, 255, 
         box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
-
+border-color: transparent;
     }
 }
 
