@@ -648,6 +648,14 @@ a {
   border-color: transparent;
 }
 
+.videoimg__button:hover .videoimg__svg {
+  opacity: 0.75;
+}
+
+.videoimg__button:hover .videoimg__span {
+  opacity: 0.75;
+}
+
 .videoimg__span {
   color: white;
   font-family: Montserrat2;
@@ -656,6 +664,7 @@ a {
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
+  transition: opacity 250ms linear;
 }
 
 .videoimg__svg {
@@ -663,6 +672,7 @@ a {
   width: 60px;
   margin-right: 21px;
   border-radius: 50%;
+  transition: opacity 250ms linear;
 }
 
 .newsletter {
