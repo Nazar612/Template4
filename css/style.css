@@ -42,8 +42,6 @@ a {
 }
 
 .header-nav__item {
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-right: 39px;
 }
 .header-nav__item:nth-child(n+5) {
